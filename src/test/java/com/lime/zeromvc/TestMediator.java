@@ -18,7 +18,7 @@ public class TestMediator extends Mediator<CommandEnum,MediatorEnum> {
     }
 
     public void update(TestProxy proxy) {
-        System.out.println(proxy.a);
+        System.out.println("-------------------proxy.a---------------------"+proxy.a);
     }
 
     public void update(Test2Proxy proxy) {
